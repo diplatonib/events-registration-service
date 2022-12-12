@@ -30,10 +30,14 @@ bot.launch({
 
     // Optional path to listen for.
     // `bot.secretPathComponent()` will be used by default
-    hookPath: "/webhook",
+    // hookPath: "/webhook",
 
     // Optional secret to be sent back in a header for security.
     // e.g.: `crypto.randomBytes(64).toString("hex")`
     // secretToken: randomAlphaNumericString,
   },
 });
+
+// Enable graceful stop
+// process.once('SIGINT', () => bot.stop('SIGINT'));
+// process.once('SIGTERM', () => bot.stop('SIGTERM'));
