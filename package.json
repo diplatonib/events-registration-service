@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "events-registration-service",
   "version": "1.0.0",
   "description": "Bot name: RSEventsBot",
   "main": "index.js",
